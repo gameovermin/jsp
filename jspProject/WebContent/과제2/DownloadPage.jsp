@@ -7,15 +7,36 @@
 	<title>Insert title here</title>
 </head>
 <body>
-	<form action="DownloadPro.jsp" method="post">
+  
 	<h2>JSP 환경 설정을 위한 다운로드 페이지</h2>
 	<hr>
-	<select name="Page">
+	<select id="page" name="Page">
 				<option value="JDK">JDK</option>
 				<option value="Tomcat">Tomcat</option>
 				<option value=" Eclipse">Eclipse</option>
 	</select>
-	<input type="submit" value="이동">
-	</form>
+	
+	<button type="button" onclick="submitButton();">이동</button>
 </body>
 </html>
+
+<script>
+	function submitButton() {
+		const page = document.getElementById('page');
+		const pageValue = page.options[page.selectedIndex].value;
+
+		console.log(pageValue);
+		
+		switch (pageValue) {
+			case 'JDK': 
+				location.href= 'http://www.oracle.com';
+				break;
+			case 'Tomcat':
+				location.href = 'http://apache.org';
+				break;
+			case 'Eclipse':
+				location.href= 'http://eclipse.org';
+				break;
+		}
+	}
+</script>
