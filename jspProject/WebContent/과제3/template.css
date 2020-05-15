@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+	background-color:	skyblue;
+	overflow: scroll; 
+}
+header{
+	border:	pink 3px solid;
+	height:	20%;
+	position: relative;
+}	
+#content{
+	margin: 10px 9px 50px;
+	height: 65%;
+	background-color: yellow;
+}
+#areaMain{/* 오른쪽 배치 */
+	position: relative;
+	float: right;
+	padding: 10px 0;
+	border: purple 3px solid;
+	width: 75%;
+}
+#areaSub{/* 왼쪽 배치*/
+	border: green 3px solid;
+	width: 20%;
+	float: left;
+}
+table{
+	width: 200px;
+	height: 200px;
+	border-width:1; 
+	border-color:silver; 
+	border-style:dashed;
+}
+footer{
+	border: yellow 3px dotted;
+	clear: both;
+	height: 30%;
+}
