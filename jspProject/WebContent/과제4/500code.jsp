@@ -12,6 +12,6 @@
 	잘못된 스크립트를 실행하였습니다.<br>
 	확인해주세요<br><hr>
 	<img src="https://coinpan.com/files/attach/images/198/626/365/031/601fa51fe0c05bffaed7a1c80a183a46.jpg">
-	
+	<!-- 500에러페이지 이미지 삽입 -->
 </body>
 </html>
