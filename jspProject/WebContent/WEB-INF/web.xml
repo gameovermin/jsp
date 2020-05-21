@@ -9,4 +9,8 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <error-page> <!-- 500에러 처리부분 -->
+  	<error-code>500</error-code>
+  	<location>/과제4/500code.jsp</location>
+  </error-page>
 </web-app>
